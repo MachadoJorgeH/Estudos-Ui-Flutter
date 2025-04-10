@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'terceiraUI.dart';
 
 class DetalhePage extends StatelessWidget {
   @override
@@ -187,7 +188,10 @@ class DetalhePage extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(6.98),
                           color: Color.fromRGBO(255, 255, 255, 1),
-                          border: Border.all(color: const Color.fromARGB(255, 202, 201, 201), width: 1),
+                          border: Border.all(
+                            color: const Color.fromARGB(255, 202, 201, 201),
+                            width: 1,
+                          ),
                         ),
                         child: Padding(
                           padding: EdgeInsets.only(left: 7.67),
@@ -428,17 +432,28 @@ class DetalhePage extends StatelessWidget {
                           ),
                         ),
                         Gap(14),
-                        Container(
-                          width: 150,
-                          height: 153,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(18),
-                            image: DecorationImage(
-                              image: AssetImage('assets/images/batman.jpeg'),
-                              fit: BoxFit.cover,
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => terceiraUI(),
+                              ),
+                            );
+                          },
+                          child: Container(
+                            width: 150,
+                            height: 153,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(18),
+                              image: DecorationImage(
+                                image: AssetImage('assets/images/batman.jpeg'),
+                                fit: BoxFit.cover,
+                              ),
                             ),
                           ),
                         ),
+
                         Gap(14),
                         Container(
                           width: 150,
