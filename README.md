@@ -1,4 +1,4 @@
-# primeira_tela
+# Estudos Flutter - Primeiras Telas
 
 A new Flutter project.
 
@@ -15,6 +15,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-![Primeira UI](/assets/images/UI1.png) - ![Segunda UI](/assets/imagem/UI2.png) 
+![Primeira UI](/assets/images/UI1.png) 
 
 
