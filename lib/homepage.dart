@@ -168,7 +168,7 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
               SizedBox(
-                height: 100, // Aumentei a altura para melhor visualização
+                height: 100, 
                 child: SingleChildScrollView(
                   scrollDirection: Axis.horizontal,
                   padding: EdgeInsets.only(top: 20, bottom: 20),

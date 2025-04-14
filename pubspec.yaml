@@ -36,6 +36,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   gap: ^3.0.1
+  intl: ^0.18.0
+  dotted_border: ^2.0.0
+  percent_indicator: ^4.2.2
 
 dev_dependencies:
   flutter_test:
@@ -71,6 +74,15 @@ flutter:
     - assets/images/graficoprint.png
     - assets/images/superman.jpeg
     - assets/images/lanternaverde.jpeg
+    - assets/images/logoShopee.png
+    - assets/images/mytheresaLogo.jpg
+    - assets/images/SurfsharkLogo.jpg
+    - assets/images/amazonlogo.png
+    - assets/images/lazadalogo.png
+    - assets/images/dysonlogo.png
+    - assets/images/agodalogo.png
+    - assets/images/kkdaylogo.jpeg
+    - assets/images/praia.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -91,7 +103,12 @@ flutter:
           - asset: assets/fonts/Sen-Regular.ttf
           - asset: assets/fonts/Sen-Bold.ttf
             weight: 700
-  
+
+      - family: Inter
+        fonts:
+          - asset: assets/fonts/Inter.ttf
+          - asset: assets/fonts/Inter-Italic.ttf
+
   #   - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
