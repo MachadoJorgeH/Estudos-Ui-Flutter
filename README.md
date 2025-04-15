@@ -1,57 +1,44 @@
-# 📱 Estudos Flutter - Primeiras Telas
+# 🧪 Estudos Flutter - Primeiras Telas
 
-Este é um projeto criado com o objetivo de praticar e aprender os fundamentos iniciais do **Flutter** e da linguagem **Dart**, focando principalmente no desenvolvimento de interfaces de usuário (**UI**).  
-A proposta é explorar a **estruturação e estilização de componentes** visuais, como `Containers`, `Rows`, `Columns`, `Stacks`, `Text`, `Icons`, `Images`, entre outros.
-
----
-
-## 🚀 Objetivo
-
-- Praticar a criação de telas com layout responsivo.
-- Utilizar **widgets básicos** e **composição de UI** no Flutter.
-- Trabalhar com **estilização, alinhamento, fontes personalizadas e ícones**.
-- Reutilização de componentes e construção de layouts modernos.
+Este projeto é uma iniciativa de estudo voltada para iniciantes no desenvolvimento de interfaces com **Flutter** e **Dart**. O objetivo principal é praticar a criação de UIs utilizando componentes customizados, estilizações e organização de layout, explorando as possibilidades do Flutter para desenvolver telas atraentes e responsivas.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🚀 Tecnologias e Ferramentas
 
-- **Flutter** 3.x
-- **Dart**
-- Editor: **Visual Studio Code**
-- Gerenciador de pacotes: `pubspec.yaml`
-
----
-
-## 📸 Imagens das Telas Desenvolvidas
-
-As telas abaixo representam as primeiras interfaces desenvolvidas com foco em layout e estilização.
-
-### 🔹 Página 1
-![Page 1](assets/images/page1.png)
-
-### 🔹 Página 2
-![Page 2](assets/images/page2.png)
-
-### 🔹 Página 3
-![Page 3](assets/images/page3.png)
-
-### 🔹 Página 4
-![Page 4](assets/images/page4.png)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
-## 📚 Recursos Úteis para Iniciantes
+## 📱 Capturas de Tela
 
-- [✅ Lab oficial: Escreva seu primeiro app Flutter](https://docs.flutter.dev/get-started/codelab)
-- [📘 Cookbook: Exemplos úteis em Flutter](https://docs.flutter.dev/cookbook)
-- [📄 Documentação oficial Flutter](https://docs.flutter.dev/)
+<p float="left">
+  <img src="assets/images/page1.png" width="200"/>
+  <img src="assets/images/page2.png" width="200"/>
+  <img src="assets/images/page3.png" width="200"/>
+  <img src="assets/images/page4.png" width="200"/>
+</p>
 
 ---
 
-## ✨ Considerações Finais
+## 📚 Recursos para Iniciantes
 
-Esse projeto faz parte de uma jornada inicial de aprendizado no universo Flutter. Novos recursos e técnicas mais avançadas serão adicionadas futuramente, como gerenciamento de estado, rotas, integração com APIs e uso de pacotes externos.
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Documentação Oficial Flutter](https://docs.flutter.dev/)
 
+---
 
+## 🛠️ Como Rodar o Projeto
 
+1. Clone este repositório
+2. Execute `flutter pub get`
+3. Inicie o projeto com `flutter run`
+
+---
+
+👨‍💻 Feito como parte dos meus estudos pessoais. Feedbacks são bem-vindos!
